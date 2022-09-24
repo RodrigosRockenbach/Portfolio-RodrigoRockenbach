@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box; /*garante que o preenchimento e a borda sejam incluídos na largura e altura totais dos elementos*/
+    /*border: solid 1px #ffffff;*/
+}
+
+html, body{    
+    text-align: center;
+    color: rgb(255, 255, 255) !important;
+    
+}
+
+header{
+    background: url(img/Wallpaper.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.painel{
+    background-color: rgb(41, 44, 48);
+    width: 340px;
+    padding-top: 100px;
+    margin-top: -100px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+
+}
