@@ -5,41 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
+    <link rel="shortcut icon" href="./assents/img/registrado.png"> <!--Icone Site-->
     <link rel="stylesheet" href="assents/style.css"> <!--CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"><!--bootstrap 5-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script><!--bootstrap 5-->
 </head>
 <body>
     <header id="home"> <!--Home-->
-        <div class="d-flex align-items-center"> <!--Barra Superior-->
-            <div class="p-2 flex-fill">
-                <h3 class="text-success"><strong>Rodrigo.</strong></h3>
-            </div>
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="container-fluid d-flex">
+                <div class="flex-fill p-2">
+                    <h3 class="text-success"><strong>Rodrigo.</strong></h3>
+                </div>
 
-            <div class="p-2 flex-fill"></div>
+                <div class="flex-fill"></div>
 
-            <div class="p-2 flex-grow-1" >
-                <nav class="navbar-expand navbar-dark">
-                    <ul class="navbar-nav d-flex">
-                        <li class="nav-item flex-fill">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="flex-grow-1 collapse navbar-collapse p-2" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
                             <a class="nav-link" href="#home"><b>HOME</b></a>
                         </li>
-                        <li class="nav-item flex-fill">
+                        <li class="nav-item">
                             <a class="nav-link" href="#about"><b>ABOUT</b></a>
                         </li>
-                        <li class="nav-item flex-fill"> 
+                        <li class="nav-item"> 
                             <a class="nav-link" href="#skill"><b>SKILLS</b></a>
                         </li>
-                        <li class="nav-item flex-fill">
+                        <li class="nav-item">
                             <a class="nav-link" href="#education"><b>EDUCATION</b></a>
                         </li>
-                        <li class="nav-item flex-fill">
+                        <li class="nav-item">
                             <a class="nav-link" href="#projects"><b>PROJECTS</b></a>
                         </li>
                     </ul>
-                </nav>
+                </div>
             </div>
-        </div>
+        </nav>
 
         <div> <!--Painel Central-->
             <img src="../assents/img/perfil.png" class="rounded-circle border border-5 border-success"  width="225" height="225">
@@ -51,25 +56,25 @@
                 <div class="d-flex justify-content-center"> <!--Redes Sociais-->
                     <div class="flex">
                         <a class="nav-link" href="https://api.whatsapp.com/send?phone=5551999701621">
-                            <img src="/assents/img/whatsapp.png" class="rounded-circle border border-3 border-success" alt="Cinque Terre" width="35" height="35">
+                            <img src="/assents/img/whatsapp.png" class="rounded-circle border border-3 border-success" title="Whatsapp" alt="Cinque Terre" width="35" height="35">
                         </a>
                     </div>
         
                     <div class="flex">
                         <a class="nav-link" href="https://www.instagram.com/r__rockenbach/">
-                            <img src="/assents/img/instagram.png" class="rounded-circle border border-3 border-success" alt="Cinque Terre" width="35" height="35">
+                            <img src="/assents/img/instagram.png" class="rounded-circle border border-3 border-success" title="Instagram" alt="Cinque Terre" width="35" height="35">
                         </a>
                     </div> 
                     
                     <div class="flex">
                         <a class="nav-link" href="https://www.linkedin.com/in/rodrigorockenbach/">
-                            <img src="/assents/img/linkedin.png" class="rounded-circle border border-3 border-success" alt="Cinque Terre" width="35" height="35">
+                            <img src="/assents/img/linkedin.png" class="rounded-circle border border-3 border-success" title="LinkedIn" alt="Cinque Terre" width="35" height="35">
                         </a>
                     </div> 
                     
                     <div class="flex">
                         <a class="nav-link" href="https://github.com/RodrigosRockenbach">
-                            <img src="/assents/img/github.png" class="rounded-circle border border-3 border-success" alt="Cinque Terre" width="35" height="35">
+                            <img src="/assents/img/github.png" class="rounded-circle border border-3 border-success" title="Github" alt="Cinque Terre" width="35" height="35">
                         </a>
                     </div> 
                 </div>
@@ -81,63 +86,60 @@
     </header>
 
     <article class="bg-black p-2" id="about"> <!--About-->
-        <h1 class="display-2"><u> About me</u></h1>
+        <h1 class="display-2"><u>About me</u></h1>
         <br>
-        <div class="row">
-            <div class="col-4 p-3">
-                <img src="/assents/img/padrao.png" class="rounded" alt="Cinque Terre" width="325" height="425">
-            </div>
-
-            <div class="col p-4" style="text-align: justify;"> <!--Texto sobre mim-->
-                <p class="p-3">Olá, meu nome é Rodrigo Rockenbach, tenho 19 anos, estou cursando meu 4º semestre em Analise  e Desenvolvimento de Sistemas na Universidade Luterana do Brasil - ULBRA. Estou apenas no início da minha carreira, mas estou em busca de uma oportunidade na minha área para demonstrar minhas habilidades. Acredito que vou compensar a minha falta de experiência com minha dedicação e empenho.
-                </p>
-
-                <div class="border d-flex p-2"> 
-                    <div class="col-6 p-3" style="text-align: left;"> <!--Contatos-->
-                        <p><b>Phone:</b> (51) 999701621</p>
-                        <p><b>Bithdate:</b> 17/12/2002</p>
-                        <p><b>Address:</b> Capão da Canoa - RS</p>
-                        <p><b>Email:</b> rodrockenbach@gmail.com</p>
-                    </div>
-
-                    <div class="col-6"> <!--Interesses-->
-                        <h5 style="text-align: center;">My intesses:</h5> <!--PASSAR COM O MOUSE POR CIMA DAS IMAGENS-->
-                        <div class="d-flex justify-content-around p-2">
-                            <button type="button" class="rounded-circle" data-bs-toggle="tooltip" title="CROSSFIT!" >
-                                <img src="/assents/img/crossfit.png" class="rounded-circle" width="50" height="55">
-                            </button>
-
-                            <button type="button" class="rounded-circle" data-bs-toggle="tooltip" title="FILMES & SÉRIES!" >
-                                <img src="/assents/img/filme.png" class="rounded-circle" width="50" height="55">
-                            </button>
-
-                            <button type="button" class="rounded-circle" data-bs-toggle="tooltip" title="LIVROS!" >
-                                <img src="/assents/img/livros.png" class="rounded-circle" width="50" height="55">
-                            </button>
-
-                        </div>
-                        <div class="d-flex justify-content-around p-2">
-                            <button type="button" class="rounded-circle" data-bs-toggle="tooltip" title="MÚSICAS!" >
-                                <img src="/assents/img/musica.png" class="rounded-circle" width="50" height="55">
-                            </button>
-                            <button type="button" class="rounded-circle" data-bs-toggle="tooltip" title="SURF!" >
-                                <img src="/assents/img/surf.png" class="rounded-circle" width="50" height="55">
-                            </button>
-                            <button type="button" class="rounded-circle" data-bs-toggle="tooltip" title="VIAJAR!" >
-                                <img src="/assents/img/viagem.png" class="rounded-circle" width="50" height="55">
-                            </button>
-                        </div>
-                        
-                    </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 p-3"> <!--Photo-->
+                    <img src="/assents/img/padrao.png" class="rounded" alt="Cinque Terre" width="325" height="425">
                 </div>
-                <br>
-                <button type="button" class="btn btn-success"> <!--Download Currículo-->
-                    <a href="/assents/arquivos/Rodrigo Rockenbach.pdf" download="" class="color-black" style="text-decoration: none; color: white;">
-                        Download CV   <img src="/assents/img/botao-de-download.png" width="18">
-                    </a>
-                </button>
+                <div class="col-sm-8 p-4" style="text-align: justify;"> <!--Texto sobre mim-->
+                    <p class="p-3">Olá, meu nome é Rodrigo Rockenbach, tenho 19 anos, estou cursando meu 4º semestre em Analise  e Desenvolvimento de Sistemas na Universidade Luterana do Brasil - ULBRA. Estou apenas no início da minha carreira, mas estou em busca de uma oportunidade na minha área para demonstrar minhas habilidades. Acredito que vou compensar a minha falta de experiência com minha dedicação e empenho.
+                    </p>
+                    <div class="row border p-2"> 
+                        <div class="col-sm-6 p-3" style="text-align: left;"> <!--Contatos-->
+                            <p><b>Phone:</b> (51) 999701621</p>
+                            <p><b>Bithdate:</b> 17/12/2002</p>
+                            <p><b>Address:</b> Capão da Canoa - RS</p>
+                            <p><b>Email:</b> rodrockenbach@gmail.com</p>
+                        </div>
+
+                        <div class="col-sm-6 p-1"> <!--Interesses-->
+                            <h5 class="text-success" style="text-align: center;"><u>My intesses:</u></h5> <!--PASSAR COM O MOUSE POR CIMA DAS IMAGENS-->
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-sm-4 p-2">
+                                        <img src="/assents/img/crossfit.png" class="rounded-circle col" title="CROSSFIT!" width="50" height="50">
+                                    </div>
+                                    <div class="col-sm-4 p-2">
+                                        <img src="/assents/img/filme.png" class="rounded-circle col" title="FILMES & SÉRIES!" width="50" height="50">
+                                    </div>
+                                    <div class="col-sm-4 p-2">
+                                        <img src="/assents/img/livros.png" class="rounded-circle col" title="LIVROS!" width="50" height="50">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col p-2">
+                                        <img src="/assents/img/musica.png" class="rounded-circle" title="MÚSICAS!" width="50" height="50">
+                                    </div>
+                                    <div class="col p-2">
+                                        <img src="/assents/img/surf.png" class="rounded-circle" title="SURF!" width="50" height="50">
+                                    </div>
+                                    <div class="col p-2">
+                                        <img src="/assents/img/viagem.png" class="rounded-circle" title="VIAJAR!" width="50" height="50">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="btn btn-success"> <!--Download Currículo-->
+                        <a href="/assents/arquivos/Rodrigo Rockenbach.pdf" download="" class="color-black" style="text-decoration: none; color: white;">
+                            Download CV   <img src="/assents/img/botao-de-download.png" width="18">
+                        </a>
+                    </button>
+                </div>
             </div>
-        </div>
         <br>
     </article>
 
@@ -270,25 +272,47 @@
 
     <div id="projects" class="bg-dark p-1"> <!--Projects-->
         <h1 class="display-2"><u>Projects</u></h1>
-        <div class="d-flex justify-content-center container-fluid p-3">
-            <div class="col-sm-3 border border-success bg-black p-3"> Tabela Champions League</div>
-            <div class="col"></div>
-            <div class="col-sm-3 border border-success bg-black p-3"> teste</div>
-            <div class="col"></div>
-            <div class="col-sm-3 border border-success bg-black p-3"> teste</div>
+        <div class="container-fluid"> <!--centralizar as divs-->
+            <div class="row p-4"> 
+                <div class="col-sm-4">
+                    <div class="border border-success bg-black p-3">
+                        <h6><u class="text-success">Tabela Champions League</u></h6>
+                        <div class="p-1">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex ipsa unde ea placeat error deserunt quos laborum, quod, explicabo iste tempora quisquam illum! Vero iusto blanditiis dolor rerum laboriosam natus?</p>
+                            <br>
+                            <img src="/assents/img/html-5.png" class="rounded-circle border border-success p-1" ata-bs-toggle="tooltip"title="HTML-5" alt="rounded-circle" width="40" height="40">
+                            <img src="/assents/img/css-3.png" class="rounded-circle border-success border p-1" ata-bs-toggle="tooltip"title="CSS" alt="rounded-circle" width="40" height="40">
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="col-sm-4"> 
+                    <div class="border border-success bg-black p-3">
+                        <h6><u class="text-success">Jogo da Velha</u></h6>
+                        <div><p>teste</p></div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="border border-success bg-black p-3">
+                        <h6><u class="text-success">Blog de Noticias</u></h6>
+                        <div><p>teste</p></div>
+                    </div>
+                </div>
+            </div>
         </div>
-        
     </div>
 
     <footer class="bg-black p-5">
         <p>&copy; 2022 Rodrigo Rockenbach</p>
-    </footer>
 
-    <!--<a href="#home" class="scroll-top on"> Colocar icone para retornar ao topo do site
-        <span class="screen-reader-text">
-            ^
-        </span>
-    </a>-->
+        <!--<a href="#home" class="scroll-top on"> Colocar icone para retornar ao topo do site
+            <span class="screen-reader-text">
+                ^
+            </span>
+        </a>-->
+    
+    </footer>
 
 </body>
 </html>
