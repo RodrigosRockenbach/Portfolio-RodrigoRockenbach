@@ -24,5 +24,8 @@ header{
     
 }
 
+.testimonial-group > .row {
+    flex-wrap: nowrap;
+    overflow-x: auto;
 
-
+}
