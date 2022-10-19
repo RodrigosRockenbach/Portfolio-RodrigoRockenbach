@@ -1,6 +1,5 @@
 * {
-    box-sizing: border-box; /*garante que o preenchimento e a borda sejam incluídos na largura e altura totais dos elementos*/
-    /*border: solid 1px #ffffff;*/
+    box-sizing: border-box; 
 }
 
 html, body{    
@@ -28,5 +27,4 @@ header{
     flex-wrap: nowrap;
     overflow-x: auto;
     word-wrap: break-word;
-
 }
